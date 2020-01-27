@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact - Pirotehnika - Vatrometi - Specijalni Efekti</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="style/style.css"/> 
+	</head>
+	<body>
+		<div id="page">
+			<div id="header">
+				<div id="logo"><a href="index.html">
+					<h1 id="v">P</h1>
+					<h1 id="p">V</h1>
+				</a></div>
+				<nav id="nav">
+					<li><a class="meni" href="index.html">Home</a></li>
+					<li><a class="meni" href="about.html">About</a></li>
+					<li><a class="meni" href="contact.html">Contact</a></li>
+				</nav>
+			</div>
+			<div id="contactinfo">
+			</div>
+			<p id="brojfona">Kontakt Telefon: 065 7474 777</p>
+			<div id="contact">
+				<form action="1.php">
+					<table>
+						<tbody>
+							<tr>
+								<td><span>Ime:</span></td>
+								<td>&nbsp;&nbsp;&nbsp;</td>
+								<td><input type="text" placeholder="Unestie vase ime" id="contactime"/></td>
+								<td><span id="errIme"></span></td>
+							</tr>
+								<tr>
+								<td><span>Prezime:</span></td>
+								<td>&nbsp;&nbsp;&nbsp;</td>
+								<td><input type="text" placeholder="Unesite vase prezime" id="contactprezime"/></td>
+								<td><span id="errPrezime"></span> </td>
+							</tr>
+								<tr>
+								<td><span>E-mail:</span></td>
+								<td>&nbsp;&nbsp;&nbsp;</td>
+								<td><input type="text" placeholder="Unestie vas e-mail" id="contactemail"/></td>
+								<td><span id="errEmail"></span></td>
+							</tr>
+							<tr>
+								<td><span>Koji je povod za vatromete:</span></td>
+								<td>&nbsp;&nbsp;&nbsp;</td>
+								<td>
+									<select id="contactlista">
+										<option>Izaberite</option>
+										<option>Rodjendan</option>
+										<option>Svadba</option>
+										<option>Drugo</option>
+									</select>
+								</td>
+								<td><span id="errGod"></span></td>
+							</tr>
+							<tr>
+								<td><span>Dobrovoljno dajem ove informacije</span></td>
+								<td>&nbsp;&nbsp;&nbsp;</td>
+								<td>
+								<input type="checkbox" id="contactagree"/>
+								</td>
+								<td><span id="errAgree"></span></td>
+							</tr>
+							<tr>
+								<td colspan="4">
+								<div id="fora">
+									<input type="button" value=" Posalji " id="contacttaster"/>
+								</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>	
+			</div>
+			<div id="footer">
+				<p id="copy">&copy 2020 Vladan Pantelic All Rights Reserved </p>
+			</div>
+		</div>
+		<script type="text/JavaScript" src="js/main.js"></script>
+	</body>
+</html>

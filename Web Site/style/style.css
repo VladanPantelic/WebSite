@@ -1,0 +1,137 @@
+*{margin:0px;padding:0px;}
+body{
+	background-color:black;
+	font-family:sans-serif;	
+}
+#page{
+	width:700px;
+	margin:0px auto;
+	height:100vh;
+	background-color:#393939;	
+}
+#header{
+	position:relative;
+	height:11%;
+	top:0px;
+}
+#logo{
+	margin-left:45px;
+}
+#logo h1{
+	float:left;
+	font-size:69px;
+	font-family:sans-serif;
+}
+#v{
+	color:red;
+	text-decoration:underline;
+}
+#p{
+	color:black;
+	text-decoration:underline;
+}
+#menilinks{
+	float:right;
+	width:250px;
+	margin-top:-25px;
+}
+.fti1{
+	float:left;
+	width:45px;
+	height:45px;
+	margin-right:15px;
+	background-image:url("../img/fti.png");
+	background-position:0px;
+}
+.fti2{
+	float:left;
+	width:45px;
+	height:45px;
+	margin-right:15px;
+	background-image:url("../img/fti.png");
+	background-position:50px;
+}
+.fti3{
+	float:left;
+	width:45px;
+	height:45px;
+	margin-right:15px;
+	background-image:url("../img/fti.png");
+	background-position:100px;
+}
+#nav{
+	position:relative;
+	top:15px;
+	left:60px;
+}
+#nav li {
+	display:inline;
+	margin:20px;
+}
+#menitabs{
+	padding-top:20px;
+}
+.meni {
+	font-size:15px;
+	text-decoration:none;
+	color:red;
+	font-family:sans-serif;
+}
+.meni:hover{
+	text-decoration:none;
+	color:silver;
+	font-family:sans-serif;
+}
+.meni:active{
+	text-decoration:none;
+	color:black;
+	font-family:sans-serif;
+}
+#footer{
+	width:100%;
+	height:2.3vh;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	color:white;
+}
+#copy{
+	font-size:small;
+	text-align:center;
+}
+#contactinfo{
+	height:300px;
+	width:500px;
+	margin:auto;
+	margin-top:50px;
+	color:white;
+	background-image:url("../img/vizitka.jpg");
+	background-repeat:round;
+	margin-bottom:25px;
+}
+#contact{
+	width:66.5%;
+	height:25%;
+	margin:auto;
+}
+#brojfona{
+	color:white;
+	position:relative;
+	top:-45px;
+	left:105px;
+}
+#fora{
+	margin-left:200px;
+}
+tr td{
+	padding:1.5px;
+}
+#errIme{
+	color:red;
+}
+#errPrezime{
+	color:red;
+}
+#errAgree{
+	color:red;
+}
